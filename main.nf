@@ -34,7 +34,7 @@ process test_resume2 {
 }
 
 
-process test_resume3 {
+/*process test_resume3 {
 	echo true
 	// publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
 			
@@ -46,7 +46,7 @@ process test_resume3 {
 		echo "executing C"
 		echo "Value of process 3 sd" > C_file.txt
 	"""
-}
+}*/
 
 workflow {
 	test_resume1()
