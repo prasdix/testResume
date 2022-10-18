@@ -3,7 +3,7 @@ nextflow.enable.dsl=2
 
 process test_resume1 {
 	echo true
-	publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
+	// publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
 	
 	output:
 		path('*.*'), emit: out_ch1
@@ -18,7 +18,7 @@ process test_resume1 {
 
 process test_resume2 {
 	echo true
-	publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
+	// publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
 	
 	input:
 		path 'test.txt'
@@ -36,7 +36,7 @@ process test_resume2 {
 
 process test_resume3 {
 	echo true
-	publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
+	// publishDir "/root/bioinformatics-pipeline/nextflow_POC/POC_testresume/output", mode:'copy'	
 			
 	output:
 		path('*.*'), emit: out_ch3
